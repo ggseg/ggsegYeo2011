@@ -1,6 +1,6 @@
 Package: ggsegyeo2011
 Title: Yeo 2011 datasets for the ggseg-plotting tool
-Version: 1.5
+Version: 1.0
 Authors@R: c(person("Athanasia Mo", "Mowinckel", 
                     email = "a.m.mowinckel@psykologi.uio.no", 
                     role = c("aut", "cre"),
@@ -18,8 +18,8 @@ Depends: R (>= 2.10)
 LazyData: true
 Suggests:
     ggseg,
-    ggplot2,
     ggseg3d,
+    ggplot2,
     knitr,
     rmarkdown,
     covr,
