@@ -1,4 +1,4 @@
-Package: ggsegyeo2011
+Package: ggsegYeo2011
 Title: Yeo 2011 datasets for the ggseg-plotting tool
 Version: 1.0
 Authors@R: c(person("Athanasia Mo", "Mowinckel", 
@@ -29,5 +29,5 @@ VignetteBuilder: knitr
 Remotes: 
     LCBC-UiO/ggseg,
     LCBC-UiO/ggseg3d
-URL: https://github.com/LCBC-UiO/ggsegyeo2011
-BugReports: https://github.com/LCBC-UiO/ggsegyeo2011/issues
+URL: https://github.com/LCBC-UiO/ggsegYeo2011
+BugReports: https://github.com/LCBC-UiO/ggsegYeo2011/issues
