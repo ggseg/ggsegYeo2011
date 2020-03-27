@@ -72,7 +72,8 @@ ggseg3d(atlas = yeo17_3d) %>%
   pan_camera("right lateral")
 ```
 
-<img src="man/figures/README-yeo17-3d-plot.png" width="100%" /> Please
-note that the ‘ggsegYeo2011’ project is released with a [Contributor
-Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
-you agree to abide by its terms.
+<img src="man/figures/README-yeo17-3d-plot.png" width="100%" />
+
+Please note that the ‘ggsegYeo2011’ project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
+this project, you agree to abide by its terms.

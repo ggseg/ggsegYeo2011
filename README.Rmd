@@ -102,6 +102,8 @@ plotly::orca(p, "man/figures/README-yeo17-3d-plot.png")
 ```{r "incl2", echo=FALSE}
 knitr::include_graphics("man/figures/README-yeo17-3d-plot.png")
 ```
+
+
 Please note that the 'ggsegYeo2011' project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
