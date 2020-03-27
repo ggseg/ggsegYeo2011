@@ -24,6 +24,8 @@ devtools::load_all(".")
 
 This package contains dataset for plotting the Yeo2011 cortical atlas ggseg and ggseg3d. 
 
+Yeo et al. (2011) J. Neurophysiology 16(3):1125-1165 [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/21653723)
+
 ## Installation
 
 You can install the released version version from [GitHub](https://github.com/) with:

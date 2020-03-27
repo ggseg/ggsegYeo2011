@@ -16,6 +16,9 @@ coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.
 This package contains dataset for plotting the Yeo2011 cortical atlas
 ggseg and ggseg3d.
 
+Yeo et al. (2011) J. Neurophysiology 16(3):1125-1165
+[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/21653723)
+
 ## Installation
 
 You can install the released version version from
