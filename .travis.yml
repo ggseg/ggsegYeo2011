@@ -9,5 +9,8 @@ os:
   - osx
 warnings_are_errors: false
 
+env:
+  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then R_REMOTES_NO_ERRORS_FROM_WARNINGS="true"; fi
+
 after_success:
   - Rscript -e 'covr::codecov()'
