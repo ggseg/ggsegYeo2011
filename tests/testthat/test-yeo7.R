@@ -6,7 +6,7 @@ test_that("Check that ggseg:::adapt_scales is working", {
 
 context("test-yeo7-palettes")
 test_that("check new palettes work", {
-  expect_equal(length(brain_pal("yeo7", package = "ggsegYeo2011")), 9)
+  expect_equal(length(brain_pal("yeo7", package = "ggsegYeo2011")), 7)
 
   expect_error(brain_pal("yeo7"), "not a valid")
 
@@ -60,3 +60,4 @@ test_that("atlases are true ggseg3d atlases", {
   expect_true(is_ggseg3d_atlas(yeo7_3d))
 
 })
+
