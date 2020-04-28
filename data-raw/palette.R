@@ -41,7 +41,7 @@ ggseg3d::ggseg3d(atlas = yeo17_3d, hemisphere = "left")
 
 yeo17 <- ggsegExtra::make_ggseg3d_2_ggseg(yeo17_3d,
                                           steps = 6:7,
-                                          tolerance = .2,
+                                          tolerance = .5,
                                           output_dir = "data-raw") %>%
   mutate(region = ifelse(grepl("Wall", region), NA, region))
 
