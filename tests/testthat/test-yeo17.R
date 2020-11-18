@@ -1,22 +1,17 @@
 # ggseg ----
-context("test-yeo17-adapt_scales")
-test_that("Check that ggseg:::adapt_scales is working", {
-  expect_equal(mode(ggseg:::adapt_scales(unnest(yeo17, ggseg))), "list")
-})
-
 context("test-yeo17-palettes")
 test_that("check new palettes work", {
   expect_equal(length(brain_pal("yeo17", package = "ggsegYeo2011")), 17)
 
   expect_error(brain_pal("yeo17"), "not a valid")
 
-  expect_true(all(names(brain_pal("yeo17", package = "ggsegYeo2011")) %in% yeo17$region))
+  expect_true(all(names(brain_pal("yeo17", package = "ggsegYeo2011")) %in% brain_regions(yeo17)))
 })
 
 context("test-yeo17-ggseg-atlas")
 test_that("atlases are true ggseg atlases", {
 
-  expect_true(is_ggseg_atlas(yeo17))
+  expect_true(is_brain_atlas(yeo17))
 
 })
 
@@ -35,10 +30,10 @@ test_that("Check that polygon atlases are working", {
               scale_fill_brain("yeo17", package = "ggsegYeo2011"),
             c("gg","ggplot"))
 
-  expect_is(ggseg(atlas = yeo17, mapping=aes(fill=area),
+  expect_is(ggseg(atlas = yeo17, mapping=aes(fill=region),
                        position="stacked"), c("gg","ggplot"))
 
-  expect_is(ggseg(atlas = yeo17, mapping=aes(fill=area), adapt_scales = F ),c("gg","ggplot"))
+  expect_is(ggseg(atlas = yeo17, mapping=aes(fill=region), adapt_scales = F ),c("gg","ggplot"))
 
 })
 
