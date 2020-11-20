@@ -4,3 +4,6 @@
 .Ruserdata
 docs/
 data-raw/**png
+**.DS_Store
+data-raw/yeo*/
+data-raw/fsaverage5/
