@@ -11,6 +11,8 @@ status](https://travis-ci.org/LCBC-UiO/ggsegYeo2011.svg?branch=master)](https://
 status](https://ci.appveyor.com/api/projects/status/github/LCBC-UiO/ggsegYeo2011?branch=master&svg=true)](https://ci.appveyor.com/project/LCBC-UiO/ggsegYeo2011)
 [![Codecov test
 coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.svg)](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011?branch=master)
+[![R build
+status](https://github.com/LCBC-UiO/ggsegYeo2011/workflows/R-CMD-check/badge.svg)](https://github.com/LCBC-UiO/ggsegYeo2011/actions)
 <!-- badges: end -->
 
 This package contains dataset for plotting the Yeo2011 cortical atlas
