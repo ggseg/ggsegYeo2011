@@ -41,6 +41,7 @@ library(ggsegYeo2011)
 
 ``` r
 library(ggseg)
+#> Loading required package: ggplot2
 
 plot(yeo7) +
   theme(legend.position = "bottom",
@@ -63,6 +64,7 @@ plot(yeo17) +
 
 ``` r
 library(ggseg3d)
+library(dplyr)
 
 ggseg3d(atlas = yeo7_3d) %>% 
   pan_camera("right lateral")
