@@ -17,7 +17,7 @@ RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 LazyData: true
 Suggests:
-    ggseg (>= 1.6),
+    ggseg,
     ggseg3d,
     ggplot2,
     tidyr,
