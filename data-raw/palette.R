@@ -35,6 +35,7 @@ yeo7_3d <- make_aparc_2_3datlas(
   ungroup() %>%
   as_ggseg3d_atlas()
 
+ggseg3d(atlas = yeo7_3d)
 
 # Not working nicely. some strange polygon stuff happening.
 yeo7 <- make_ggseg3d_2_ggseg(yeo7_3d,
