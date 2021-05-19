@@ -1,3 +1,7 @@
+# ggsegYeo2011 1.0.02
+
+* fixed atlas names for yeo17 to have region names rather than network counts
+
 # ggsegYeo2011 1.0.01
 
 * made atlases compatible with ggseg 1.6.0

@@ -17,8 +17,6 @@ knitr::opts_chunk$set(
 # ggsegYeo2011
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/LCBC-UiO/ggsegYeo2011.svg?branch=master)](https://travis-ci.org/LCBC-UiO/ggsegYeo2011)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/LCBC-UiO/ggsegYeo2011?branch=master&svg=true)](https://ci.appveyor.com/project/LCBC-UiO/ggsegYeo2011)
 [![Codecov test coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.svg)](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011?branch=master)
 [![R build status](https://github.com/LCBC-UiO/ggsegYeo2011/workflows/R-CMD-check/badge.svg)](https://github.com/LCBC-UiO/ggsegYeo2011/actions)
 <!-- badges: end -->
@@ -43,6 +41,7 @@ library(ggsegYeo2011)
 ```
 
 ```{r}
+library(ggplot2)
 library(ggseg)
 
 plot(yeo7) +
@@ -64,7 +63,7 @@ library(dplyr)
 
 ggseg3d(atlas = yeo7_3d) %>% 
   pan_camera("right lateral")
-```
+``
 
 ```{r "orca", include=FALSE}
 library(ggseg3d)

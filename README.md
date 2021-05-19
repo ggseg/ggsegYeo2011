@@ -5,10 +5,6 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/LCBC-UiO/ggsegYeo2011.svg?branch=master)](https://travis-ci.org/LCBC-UiO/ggsegYeo2011)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/LCBC-UiO/ggsegYeo2011?branch=master&svg=true)](https://ci.appveyor.com/project/LCBC-UiO/ggsegYeo2011)
 [![Codecov test
 coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.svg)](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011?branch=master)
 [![R build
@@ -40,8 +36,8 @@ library(ggsegYeo2011)
 ```
 
 ``` r
+library(ggplot2)
 library(ggseg)
-#> Loading required package: ggplot2
 
 plot(yeo7) +
   theme(legend.position = "bottom",
@@ -52,7 +48,6 @@ plot(yeo7) +
 <img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
 ``` r
-
 
 plot(yeo17) +
   theme(legend.position = "bottom",
@@ -68,6 +63,7 @@ library(dplyr)
 
 ggseg3d(atlas = yeo7_3d) %>% 
   pan_camera("right lateral")
+``
 ```
 
 <img src="man/figures/README-yeo7-3d-plot.png" width="100%" />
