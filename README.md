@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggsegYeo2011
+# ggsegYeo2011 <img src='man/figures/logo.png' align="right" height="138.5" />
 
 <!-- badges: start -->
 
@@ -9,6 +9,8 @@
 coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.svg)](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011?branch=master)
 [![R build
 status](https://github.com/LCBC-UiO/ggsegYeo2011/workflows/R-CMD-check/badge.svg)](https://github.com/LCBC-UiO/ggsegYeo2011/actions)
+[![DOI](https://zenodo.org/badge/250192046.svg)](https://zenodo.org/badge/latestdoi/250192046)
+
 <!-- badges: end -->
 
 This package contains dataset for plotting the Yeo2011 cortical atlas
@@ -18,6 +20,19 @@ Yeo et al. (2011) J. Neurophysiology 16(3):1125-1165
 [pubmed](https://www.ncbi.nlm.nih.gov/pubmed/21653723)
 
 ## Installation
+
+We recommend installing the ggseg-atlases through the ggseg
+[r-universe](https://ggseg.r-universe.dev/ui#builds):
+
+``` r
+# Enable this universe
+options(repos = c(
+    ggseg = 'https://ggseg.r-universe.dev',
+    CRAN = 'https://cloud.r-project.org'))
+
+# Install some packages
+install.packages('ggsegYeo2011')
+```
 
 You can install the released version version from
 [GitHub](https://github.com/) with:
@@ -45,7 +60,7 @@ plot(yeo7) +
   guides(fill = guide_legend(ncol = 3))
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 ``` r
 
@@ -55,7 +70,7 @@ plot(yeo17) +
   guides(fill = guide_legend(ncol = 3))
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-2.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-5-2.png" width="100%" />
 
 ``` r
 library(ggseg3d)
