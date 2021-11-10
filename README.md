@@ -5,12 +5,11 @@
 
 <!-- badges: start -->
 
-[![Codecov test
-coverage](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011/branch/master/graph/badge.svg)](https://codecov.io/gh/LCBC-UiO/ggsegYeo2011?branch=master)
 [![R build
 status](https://github.com/LCBC-UiO/ggsegYeo2011/workflows/R-CMD-check/badge.svg)](https://github.com/LCBC-UiO/ggsegYeo2011/actions)
 [![DOI](https://zenodo.org/badge/250192046.svg)](https://zenodo.org/badge/latestdoi/250192046)
-
+[![CRAN
+status](https://www.r-pkg.org/badges/version/ggsegYeo2011)](https://CRAN.R-project.org/package=ggsegYeo2011)
 <!-- badges: end -->
 
 This package contains dataset for plotting the Yeo2011 cortical atlas
@@ -53,6 +52,7 @@ library(ggsegYeo2011)
 ``` r
 library(ggplot2)
 library(ggseg)
+#> Warning: package 'ggseg' was built under R version 4.1.1
 
 plot(yeo7) +
   theme(legend.position = "bottom",
