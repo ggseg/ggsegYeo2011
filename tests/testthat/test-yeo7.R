@@ -1,5 +1,4 @@
 # ggseg ----
-context("test-yeo7-palettes")
 test_that("check new palettes work", {
   expect_equal(length(brain_pal("yeo7", package = "ggsegYeo2011")), 7)
 
@@ -15,7 +14,6 @@ test_that("atlases are true ggseg atlases", {
 
 })
 
-context("test-yeo7-ggseg")
 test_that("Check that polygon atlases are working", {
   expect_is(ggseg(atlas = yeo7),c("gg","ggplot"))
 
@@ -39,7 +37,6 @@ test_that("Check that polygon atlases are working", {
 
 
 # ggseg3d ----
-context("test-yeo7-ggseg3d")
 test_that("Check that mesh atlases are working", {
   expect_is(
     ggseg3d(atlas=yeo7_3d),
@@ -49,7 +46,6 @@ test_that("Check that mesh atlases are working", {
 
 
 
-context("test-yeo7-ggseg3d-atlas")
 test_that("atlases are true ggseg3d atlases", {
 
   expect_true(is_ggseg3d_atlas(yeo7_3d))

@@ -17,34 +17,23 @@ p <- ggseg(atlas = atlas,
   theme_void() +
   theme_transparent()
 
-sticker(p,
-        package = pkgname,
-        filename="man/figures/logo.svg",
-        s_y = 1.2,
-        s_x = 1,
-        s_width = 1.5,
-        s_height = 1.5,
-        p_family = "mono",
-        p_size = 5,
-        p_color = "grey30",
-        p_y = .6,
-        h_fill = "white",
-        h_color = "grey30"
+mapply(
+  sticker,
+  filename = c("man/figures/logo.svg",
+               "man/figures/logo.png"),
+  p_size = c(5, 15),
+  MoreArgs = list(
+    subplot = p,
+    package = "ggsegYeo2011",
+    s_y = 1.2,
+    s_x = 1,
+    s_width = 1.5,
+    s_height = 1.5,
+    p_family = "mono",
+    p_color = "grey30",
+    p_y = .6,
+    h_fill = "white",
+    h_color = "grey30"
+  )
 )
 
-sticker(p,
-        package = pkgname,
-        filename="man/figures/logo.png",
-        s_y = 1.2,
-        s_x = 1,
-        s_width = 1.5,
-        s_height = 1.5,
-        p_family = "mono",
-        p_size = 5,
-        p_color = "grey30",
-        p_y = .6,
-        h_fill = "white",
-        h_color = "grey30"
-)
-
-pkgdown::build_favicons()
