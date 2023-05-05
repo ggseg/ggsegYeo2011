@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lcbc-uio.github.io/ggsegYeo2011//index.html</loc>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/404.html</loc>
   </url>
   <url>
-    <loc>https://lcbc-uio.github.io/ggsegYeo2011//reference/yeo17.html</loc>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://lcbc-uio.github.io/ggsegYeo2011//reference/yeo17_3d.html</loc>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://lcbc-uio.github.io/ggsegYeo2011//reference/yeo7.html</loc>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/authors.html</loc>
   </url>
   <url>
-    <loc>https://lcbc-uio.github.io/ggsegYeo2011//reference/yeo7_3d.html</loc>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/index.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/news/index.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/reference/yeo17.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/reference/yeo17_3d.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/reference/yeo7.html</loc>
+  </url>
+  <url>
+    <loc>https://lcbc-uio.github.io/ggsegYeo2011/reference/yeo7_3d.html</loc>
   </url>
 </urlset>
