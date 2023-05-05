@@ -10,6 +10,7 @@ status](https://github.com/LCBC-UiO/ggsegYeo2011/workflows/R-CMD-check/badge.svg
 [![DOI](https://zenodo.org/badge/250192046.svg)](https://zenodo.org/badge/latestdoi/250192046)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/ggsegYeo2011)](https://CRAN.R-project.org/package=ggsegYeo2011)
+[![R-CMD-check](https://github.com/ggseg/ggsegYeo2011/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ggseg/ggsegYeo2011/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package contains dataset for plotting the Yeo2011 cortical atlas
@@ -52,7 +53,6 @@ library(ggsegYeo2011)
 ``` r
 library(ggplot2)
 library(ggseg)
-#> Warning: package 'ggseg' was built under R version 4.1.1
 
 plot(yeo7) +
   theme(legend.position = "bottom",
@@ -63,6 +63,7 @@ plot(yeo7) +
 <img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 ``` r
+
 
 plot(yeo17) +
   theme(legend.position = "bottom",
